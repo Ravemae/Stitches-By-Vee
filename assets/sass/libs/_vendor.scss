@@ -1,9 +1,4 @@
-// vendor.scss v1.0 | @ajlkn | MIT licensed */
-
-// Vars.
-
-	/// Vendor prefixes.
-	/// @var {list}
+	/// Vendor prefixes list
 	$vendor-prefixes: (
 		'-moz-',
 		'-webkit-',
@@ -11,9 +6,7 @@
 		''
 	);
 
-	/// Properties that should be vendorized.
-	/// Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org
-	/// @var {list}
+	/// Properties vendor-prefix
 	$vendor-properties: (
 
 		// Animation.
@@ -192,9 +185,7 @@
 
 	);
 
-	/// Values that should be vendorized.
-	/// Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org
-	/// @var {list}
+	/// Values to vendor-prefix
 	$vendor-values: (
 
 		// Cross fade.
@@ -246,16 +237,8 @@
 			'zoom-out',
 
 	);
-
-// Functions.
-
-	/// Removes a specific item from a list.
-	/// @author Hugo Giraudel
-	/// @param {list} $list List.
-	/// @param {integer} $index Index.
-	/// @return {list} Updated list.
+// Functions to remove nth item from a list.
 	@function remove-nth($list, $index) {
-
 		$result: null;
 
 		@if type-of($index) != number {
@@ -286,12 +269,7 @@
 
 	}
 
-	/// Replaces a substring within another string.
-	/// @author Hugo Giraudel
-	/// @param {string} $string String.
-	/// @param {string} $search Substring.
-	/// @param {string} $replace Replacement.
-	/// @return {string} Updated string.
+	/// Function to replace substring in string.
 	@function str-replace($string, $search, $replace: '') {
 
 		$index: str-index($string, $search);
@@ -304,7 +282,7 @@
 
 	}
 
-	/// Replaces a substring within each string in a list.
+	/// Function to replace substring in each string in list.
 	/// @param {list} $strings List of strings.
 	/// @param {string} $search Substring.
 	/// @param {string} $replace Replacement.
@@ -319,9 +297,7 @@
 
 	}
 
-// Mixins.
-
-	/// Wraps @content in vendorized keyframe blocks.
+/// Mixin Wraps @content in vendorized keyframe blocks.
 	/// @param {string} $name Name.
 	@mixin keyframes($name) {
 
@@ -332,7 +308,7 @@
 
 	}
 
-	/// Vendorizes a declaration's property and/or value(s).
+	/// Mixin to vendorize property and/or value(s)
 	/// @param {string} $property Property.
 	/// @param {mixed} $value String/list of value(s).
 	@mixin vendor($property, $value) {
@@ -362,7 +338,7 @@
 			}
 
 		// Expand just the value?
-			@elseif $expandValue {
+			@else if $expandValue {
 			    @each $vendor in $vendor-prefixes {
 			        #{$property}: #{str-replace-all($value, '-prefix-', $vendor)};
 			    }

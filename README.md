@@ -1,32 +1,40 @@
+
 # Stitches by Vee 👗✨
 
-**Stitches by Vee** is a modern fashion brand website showcasing custom, elegant, and stylish outfits designed to celebrate individuality and confidence. Built with love and attention to detail, this site highlights the brand's identity through a clean, creative, and professional digital presence.
+**Stitches by Vee** is a modern fashion brand concept website created to showcase a luxurious and creative online presence for a stitching and sewing brand. This project was built as a **professional design sample**, combining customized code with adapted structure and branding made with love, care, and a tech girly touch 🪡💅.
 
 ## 🌐 Live Demo
 
-[Visit Website](https://stitchesbyvee.vercel.app)
+[🔗 Visit Website](https://stitches-by-vee.vercel.app/)
 
-## ✨ Features
+## ✨ Key Features
 
 - Fully responsive design
+- Soft color palette and fashion-forward typography
 - Smooth transitions and scroll animations
-- Elegant layout for fashion brands
-- Contact and portfolio sections
-- Custom color palette and branding
+- Contact form and brand section
+- Easily customizable for real brand clients or template sales
 
-## 📄 License
+## 🛠️ Built With
 
-This project is licensed under the**Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.**That means:
+- HTML5
+- CSS3 (customized styles and layouts)
+- JavaScript (form interaction)
+- Personal customization + brand concept by Vera Adaeze M. Ezeanya
 
-- ✅ You can view and share it with credit
-- ❌ You can't sell, modify, or reuse it commercially
-- ⚠️ Full details here: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+## ⚖️ Licensing & Use
 
-For permissions beyond this license, contact: **veraezeanya.business@gmail.com**
+This is a **non-commercial sample project** for educational and professional portfolio use.
 
-## 📧 Contact
+Parts of this project were **adapted and customized** from publicly available open-source code and templates. All design, layout, and brand styling were created by me.
 
-For business inquiries or collaborations, reach out via
-📩 veraezeanya.business@gmail.com
+If you'd like to:
 
-*© 2025 Stitches by Vee | Vera Adaeze Margaret Ezeanya. All Rights Reserved.*
+- Modify or reuse it for a personal project → ✅ Yes, with credit.
+- Use it commercially or resell → ❌ Not without permission.
+
+For full terms and inquiries, please email: **veraezeanya.business@gmail.com**
+
+---
+
+© 2025 Stitches by Vee | Custom Concept by Vera Adaeze M. Ezeanya. All rights reserved.

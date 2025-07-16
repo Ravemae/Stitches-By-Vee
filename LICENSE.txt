@@ -1,18 +1,17 @@
-Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
+Non-Commercial Custom Demo License (Modified CC BY-NC-ND 4.0)
 
-Copyright © 2025 Vera Adaeze Margaret Ezeanya (Stitches by Vee)
+This website project ("Stitches by Vee") is a customized design demo developed by Vera Adaeze Margaret Ezeanya for personal and professional presentation purposes only.
 
 You are free to:
-- Share — copy and redistribute the material in any medium or format
+- View, clone, and share this repository with proper credit
+- Use it as inspiration for learning or portfolio use
 
-Under the following terms:
-- Attribution — You must give appropriate credit, provide a link to the original source (https://stitchesbyvee.vercel.app), and indicate if any changes were made.
-- NonCommercial — You may not use the material for commercial purposes.
-- NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
+You may not:
+- Use this content for commercial purposes without written permission
+- Sell or redistribute modified versions of this design
+- Remove credit or misrepresent the work as entirely original
 
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+Attribution:
+Please credit Vera Adaeze M. Ezeanya (https://stitchesbyvee.vercel.app) and indicate that the site was adapted from publicly available design templates.
 
-For full license text, visit:  
-https://creativecommons.org/licenses/by-nc-nd/4.0/
-
-For permission requests, contact: veraezeanya.business@gmail.com
+For permission requests or collaboration inquiries, email: veraezeanya.business@gmail.com
